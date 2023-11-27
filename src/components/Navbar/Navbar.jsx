@@ -1,15 +1,15 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { MdOutlineRestaurantMenu } from "react-icons/md";
+//import { MdOutlineRestaurantMenu } from "react-icons/md";
 
 import './Navbar.css';
 import images from '../../constants/images';
 import './Navbar.css';
 
 const Navbar = () => (
-  <div>
+  <nav className='app__navbar'>
     Navbar
-  </div>
+  </nav>
 );
 
 export default Navbar;
