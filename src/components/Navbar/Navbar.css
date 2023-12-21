@@ -34,3 +34,15 @@
 .app__navbar-links li:hover {
   color: var(--color-gray);
 }
+
+.app__navbar-login {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.app__navbar-login a {
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}

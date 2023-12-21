@@ -18,10 +18,12 @@ const Navbar = () => (
       <li className='p__opensans'><a href='#awards'>Awards</a></li>
       <li className='p__opensans'><a href='#contact'>Contant</a></li>
     </ul>
-    <div className='app__navbar-menu'>
-      <GiHamburgerMenu />
+    <div className='app__navbar-login'>
+      <a href="#login" target="_blank" rel="noopener noreferrer" className='p__opensans'>Log In / Register</a>
+      <div />
+      <a href='/' className='p__opensans'>Book a table</a>
     </div>
-  </nav>
+  </nav >
 );
 
 export default Navbar;
