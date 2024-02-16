@@ -15,7 +15,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 );
 
 const Laurels = () => (
-  <div className='app__bg app__wrapper section__padding app__laurels'>
+  <div className='app__bg app__wrapper section__padding app__laurels' id='awards'>
     <div className='app__delight'>
       <img src={images.delight} alt="delight" />
     </div>
